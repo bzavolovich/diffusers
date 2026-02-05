@@ -429,6 +429,7 @@ else:
         "QwenImageInpaintPipeline",
         "QwenImageEditPipeline",
         "QwenImageEditPlusPipeline",
+        "QwenImageEditControlNetInpaintPipeline",
         "QwenImageEditInpaintPipeline",
         "QwenImageControlNetInpaintPipeline",
         "QwenImageControlNetPipeline",
@@ -781,6 +782,7 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
         from .qwenimage import (
             QwenImageControlNetInpaintPipeline,
             QwenImageControlNetPipeline,
+            QwenImageEditControlNetInpaintPipeline,
             QwenImageEditInpaintPipeline,
             QwenImageEditPipeline,
             QwenImageEditPlusPipeline,
